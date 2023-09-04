@@ -1,9 +1,9 @@
 <script setup>
-import HelloWorld from '../components/HelloWorld.vue';
+import Panel from '../components/Panel.vue';
 </script>
 
 <template>
   <main>
-    <HelloWorld />
+    <Panel></Panel>
   </main>
 </template>
