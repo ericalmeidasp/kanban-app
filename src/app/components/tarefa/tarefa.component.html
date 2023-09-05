@@ -1,0 +1,22 @@
+<div class="card w-96 bg-base-100 shadow-xl">
+    <div class="card-body">
+      <h2 class="card-title">titulo</h2>
+      <p>texto</p>
+      <div class="card-actions justify-end">
+        <!-- The button to open modal -->
+        <label :for="`my_modal_${1}`" class="btn btn-primary">Comentar</label>
+
+        <!-- Put this part before </body> tag -->
+        <input type="checkbox" :id="`my_modal_${1}`" class="modal-toggle" />
+        <div class="modal">
+          <div class="modal-box">
+            <h3 class="font-bold text-lg">Mensagens:</h3>
+            <app-card-chat></app-card-chat>
+            <div class="modal-action">
+              <label :for="`my_modal_${1}`" class="btn">Close!</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
