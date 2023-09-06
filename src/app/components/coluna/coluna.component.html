@@ -1,6 +1,7 @@
 <div
   class="grid h-150 flex-grow card bg-base-300 rounded-box place-items-center mx-1"
 >
-  <h2 class="text-2xl font-bold mt-3">Nome</h2>
+  <h2 class="text-2xl font-bold mt-3"> Nome: {{ coluna?.name }}  </h2>
   <app-tarefa class="m-3"></app-tarefa>
+  <app-tarefa class="m-3" *ngFor="let tarefa of tarefas"></app-tarefa>
 </div>

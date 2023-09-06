@@ -1,3 +1,5 @@
 <main>
-    <app-quadro></app-quadro>
+    
+    <button class="btn btn-secondary m-3" *ngFor="let quadro of quadros" (click)="selecionarQuadro(quadro)">{{quadro.name}}</button>
+    <app-quadro [quadro]="selectedQuadro"></app-quadro>
 </main>
