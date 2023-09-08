@@ -19,8 +19,7 @@ export class HttpService {
   options = {
     headers: {
       "Authorization": "Bearer token"
-    },
-    withCredentials: false
+    }
   }
 
 
