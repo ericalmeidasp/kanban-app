@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./card-chat.component.css']
 })
 export class CardChatComponent {
-
 }
